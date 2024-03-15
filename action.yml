@@ -35,7 +35,7 @@ outputs:
 runs:
   using: "composite"
   steps:
-    - uses: actions-mn/cache@v1
+    - uses: cam-s-hunt/cache@v1:patch-1
 
     - uses: actions-mn/site-gen@v1
       with:
