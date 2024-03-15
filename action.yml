@@ -23,7 +23,7 @@ inputs:
     default: '' # false
   destination:
     description: 'What is a target of the action. At this moment `default`, `gh-pages` or `artifact` is available'
-    default: default
+    default: gh-pages
   artifact-name:
     description: 'Name of artifact to upload'
     default: github-pages
